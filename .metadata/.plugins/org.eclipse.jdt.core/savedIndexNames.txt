@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\scull\Documents\GitRepos\WeaselCoding\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+773712376.index
+1642527143.index

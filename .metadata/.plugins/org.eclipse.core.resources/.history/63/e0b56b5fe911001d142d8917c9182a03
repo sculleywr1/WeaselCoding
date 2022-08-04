@@ -1,0 +1,43 @@
+package helloprim;
+
+public class MainDriver {
+
+	public static void main(String[] args) {
+		/*
+		 * What is........a bit?
+		 * 	It's data. It's either a "0" or "1" value. (aka an "on" or "off" value)
+		 * 
+		 * What is.........a nibble?
+		 *   A nibble is 4 bits.
+		 *   
+		 *   What is........a byte?
+		 *  A byte is 8 bits.
+		 *  
+		 *  What is a "primitive datatype"?
+		 * 		It's a basic value, used as a building block for more complex values like referenced types.
+		 * 		Primitive types are stored on the stack.
+		 * 
+		 * What are the primitive datatypes in Java?
+		 * 		int, char, double, float, long, short,boolean, byte
+		 * 
+		 * 		boolean (1 bit), int (4 bytes), char (2 bytes), float (4 bytes),
+		 * 		double (8 bytes), long(8 bytes), short(2 bytes), byte( 8 bits)
+		 * 
+		 * 			2^31-1   <--------largest int (2147483647)
+		 * 
+		 * 			8bits*4 = 32
+		 * 			the first bit is representing positive or negative
+		 */
+		int a = 12;
+		char b = 'a';
+		double c = 3.14159265357;
+		float d = (float) 3.14;
+		long e = 65464841968484118L;
+		short f = 11525;
+		boolean g = true;
+		byte h = 6;
+		
+		char whatIsThis = (char)209;
+		System.out.println(whatIsThis);
+	}
+}

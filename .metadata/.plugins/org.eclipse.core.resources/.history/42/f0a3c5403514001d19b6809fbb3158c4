@@ -1,0 +1,23 @@
+package hellojava;
+
+/**
+ * Description: describe your functionality
+ * @author scull
+ * @return what is my class or function going to return (eg: login() returns a boolean true/false)
+ * @param What is my class or function going to be given (eg: login(String username, string password))
+ */
+public class MainDriver {
+	//This is a comment. Text that does not execute. It is used for documentation
+	/*
+	 * this is a block comment
+	 * you can put many comments in one block
+	 * if you want.
+	 */
+	/**
+	 * 
+	 * this method is the ENTRY point for your program
+	 */
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
