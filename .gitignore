@@ -1,5 +1,48 @@
 **/.vs/
+# Build results
 bin/
 obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+
+# Rider (JetBrains)
+.idea/
+
+# Test Results
+TestResults/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# VS Code
+.vscode/
+
+# Others
+*.dbmdl
+*.bak
+*.cache
+*.log
+*.pdb
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
