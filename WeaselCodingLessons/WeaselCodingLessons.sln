@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaselCodingLessons", "Weas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "..\Encapsulation\Encapsulation.csproj", "{81F94BDD-58E6-4A4E-9BE0-44A546CAC3F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "..\Inheritance\Inheritance.csproj", "{48DC4B3B-0E3A-4C5B-BF09-1363BA35CD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "..\Polymorphism\Polymorphism.csproj", "{482133A4-2CE7-4044-830D-7CF7CE6111D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{81F94BDD-58E6-4A4E-9BE0-44A546CAC3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81F94BDD-58E6-4A4E-9BE0-44A546CAC3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81F94BDD-58E6-4A4E-9BE0-44A546CAC3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DC4B3B-0E3A-4C5B-BF09-1363BA35CD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DC4B3B-0E3A-4C5B-BF09-1363BA35CD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DC4B3B-0E3A-4C5B-BF09-1363BA35CD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DC4B3B-0E3A-4C5B-BF09-1363BA35CD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482133A4-2CE7-4044-830D-7CF7CE6111D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482133A4-2CE7-4044-830D-7CF7CE6111D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482133A4-2CE7-4044-830D-7CF7CE6111D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482133A4-2CE7-4044-830D-7CF7CE6111D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
