@@ -14,6 +14,7 @@
             Doberman myDoberman = new Doberman();
             myDog.Guard(); // Calls the Guard method in Dog class
             myDoberman.Guard(); //calls the inherited Guard method in Dog class
+
             myDoberman.Guard(1); // Calls the overloaded Guard method in Doberman class and then goes through the switch statement
         }
 
@@ -87,6 +88,7 @@
                 }
             }
 
+            //do not use method hiding unless you have a very good reason to do so, it can lead to confusion and bugs in your code. Hiding is not the same as overriding, and it can cause unexpected behavior if not used carefully. Further, it can cause issues with methods that call for specific datatypes or parameters, as the base class method will not be called if the derived class method is hidden. the below method is a bad example of hiding, but it is included to show how it works. Do not use method hiding to change the return type of a method, as it can lead to confusion and bugs in your code. Hiding is not the same as overriding, and it can cause unexpected behavior if not used carefully.
             public int Guard()
             {
                 return 1; // Just an example to return an integer value
